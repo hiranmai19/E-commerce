@@ -63,7 +63,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
-      {stripeApikey && (
+      {(
         <Elements stripe={loadStripe(stripeApikey)}>
           <Routes>
             <Route
