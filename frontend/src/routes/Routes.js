@@ -3,7 +3,6 @@ import SignupPage from "../pages/SignupPage";
 import ActivationPage from "../pages/ActivationPage";
 import HomePage from "../pages/HomePage";
 import ProductsPage from "../pages/ProductsPage";
-import EventsPage from "../pages/EventsPage";
 import CheckoutPage from "../pages/CheckoutPage";
 import PaymentPage from "../pages/PaymentPage";
 import OrderSuccessPage from "../pages/OrderSuccessPage";
@@ -22,7 +21,6 @@ export {
     ActivationPage,
     HomePage,
     ProductsPage,
-    EventsPage,
     CheckoutPage,
     PaymentPage,
     OrderSuccessPage,

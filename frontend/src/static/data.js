@@ -23,69 +23,69 @@ export const navItems = [
       title: "Computers and Laptops",
       subTitle: "",
       image_Url:
-        "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+        "https://external-preview.redd.it/17VGx_ousyEStosSAd7FJNacX73oaoZ2xm6RkoNMEio.jpg?auto=webp&s=db0ce4b5ad41b6d8511adea79b611771898b94dc",
     },
     {
       id: 2,
-      title: "cosmetics and body care",
+      title: "Cosmetics & body care",
       subTitle: "",
       image_Url:
-        "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
+        "https://i.pinimg.com/564x/59/a3/f2/59a3f2306d3766627ab3ea5aa7c05f2d.jpg",
     },
     {
       id: 3,
-      title: "Accesories",
+      title: "Groceries",
       subTitle: "",
       image_Url:
-        "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
+        "https://tse4.mm.bing.net/th?id=OIP.pC_u49H9FAzi_v_ey1-_hgHaHa&pid=Api&P=0",
     },
     {
       id: 4,
-      title: "Cloths",
+      title: "Clothes",
       subTitle: "",
       image_Url:
-        "https://www.shift4shop.com/2015/images/industries/clothing/clothing-apparel.png",
+        "https://tse4.mm.bing.net/th?id=OIP.fqi2tIoLY_ZXeCetUl0etgHaIc&pid=Api&P=0",
     },
     {
       id: 5,
       title: "Shoes",
       subTitle: "",
       image_Url:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
+        "https://i.pinimg.com/736x/16/4b/48/164b487d0c0c7bdefccb52cd85833be0.jpg",
     },
     {
       id: 6,
       title: "Gifts",
       subTitle: "",
       image_Url:
-        "",
+        "https://tse1.mm.bing.net/th?id=OIP.BuU2IW-ZntSZaTMXddfduwHaHa&pid=Api&P=0",
     },
     {
       id: 7,
       title: "Pet Care",
       subTitle: "",
-      image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
+      image_Url: "https://tse1.mm.bing.net/th?id=OIP.KEoki1XsVxuT8INU5lUmKQHaHP&pid=Api&P=0",
     },
     {
       id: 8,
       title: "Mobile and Tablets",
       subTitle: "",
       image_Url:
-        "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
+        "https://tse3.mm.bing.net/th?id=OIP.Xxx24e3vxr_I5h4gGkhInQHaHa&pid=Api&P=0",
     },
     {
       id: 9,
       title: "Music and Gaming",
       subTitle: "",
       image_Url:
-        "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
+        "https://i.pinimg.com/236x/b9/9f/3e/b99f3e708da2407b8f4df651b71aeae7.jpg",
     },
     {
       id: 10,
-      title: "Others",
+      title: "Home",
       subTitle: "",
       image_Url:
-        "https://searchspring.com/wp-content/uploads/2022/10/Hero-Image-Platform-Others-2.png",
+        "https://i.pinimg.com/236x/af/28/82/af2882b79d77309bf5f7a3319e8c8b12.jpg",
     },
   ];
   
