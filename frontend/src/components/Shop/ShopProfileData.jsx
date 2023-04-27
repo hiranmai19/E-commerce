@@ -6,18 +6,15 @@ import styles from "../../styles/styles";
 import ProductCard from "../Route/ProductCard/ProductCard";
 import { backend_url } from "../../server";
 import Ratings from "../Products/Ratings";
-import { getAllEventsShop } from "../../redux/actions/event";
 
 const ShopProfileData = ({ isOwner }) => {
   const { products } = useSelector((state) => state.products);
-  const { events } = useSelector((state) => state.events);
   const { seller } = useSelector((state) => state.seller);
   const { id } = useParams();
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(getAllProductsShop(id));
-    dispatch(getAllEventsShop(seller._id));
   }, [dispatch]);
 
   const [active, setActive] = useState(1);
@@ -38,16 +35,6 @@ const ShopProfileData = ({ isOwner }) => {
               Shop Products
             </h5>
           </div>
-          <div className="flex items-center" onClick={() => setActive(2)}>
-            <h5
-              className={`font-[600] text-[20px] ${
-                active === 2 ? "text-red-500" : "text-[#333]"
-              } cursor-pointer pr-[20px]`}
-            >
-              Running Events
-            </h5>
-          </div>
-
           <div className="flex items-center" onClick={() => setActive(3)}>
             <h5
               className={`font-[600] text-[20px] ${
@@ -81,28 +68,9 @@ const ShopProfileData = ({ isOwner }) => {
         </div>
       )}
 
-      {active === 2 && (
-        <div className="w-full">
-          <div className="grid grid-cols-1 gap-[20px] md:grid-cols-2 md:gap-[25px] lg:grid-cols-3 lg:gap-[25px] xl:grid-cols-4 xl:gap-[20px] mb-12 border-0">
-            {events &&
-              events.map((i, index) => (
-                <ProductCard
-                  data={i}
-                  key={index}
-                  isShop={true}
-                  isEvent={true}
-                />
-              ))}
-          </div>
-          {events && events.length === 0 && (
-            <h5 className="w-full text-center py-5 text-[18px]">
-              No Events have for this shop!
-            </h5>
-          )}
-        </div>
-      )}
 
-      {active === 3 && (
+
+      {active === 2 && (
         <div className="w-full">
           {allReviews &&
             allReviews.map((item, index) => (
